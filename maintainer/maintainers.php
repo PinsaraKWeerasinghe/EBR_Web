@@ -59,8 +59,8 @@ if(isset($_SESSION['uname'])){
                                 <li><a href="https://www.ceb.lk/"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
                             <div class="search">
-                                <a style="background:#5c5c5c" href="">  <?php echo $_SESSION['uname']?>  </a>
-                                <a style="background: #5c5c5c"href="../logout.php"><input type="button" value="Log Out"></button></a>
+                                <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                                <a href="../logout.php"><input type="button" value="Log Out"></button></a>
 
                             </div>
 
@@ -90,8 +90,6 @@ if(isset($_SESSION['uname'])){
                         <li><a href="index.php">Home</a></li>
                         <li><a href="issues.php">Issues</a></li>
                         <li class="active"><a href="maintainers.php">Maintainers</a></li>
-
-                    
                     </ul>
                 </div>
             </div>
@@ -116,7 +114,7 @@ if(isset($_SESSION['uname'])){
                 
 
 
-                <input onclick="window.location.href='addmaintainer.php'" type="Button" name="Add_maintainer" value="Add Maintainer">
+
             </div>
             <!--/.row-->
         </div>
@@ -167,7 +165,7 @@ if(isset($_SESSION['uname'])){
 }else{
 
 
-    echo "<script type=\"text/javascript\">location.href = 'Login/index.html'</script>";
+    echo "<script type=\"text/javascript\">location.href = 'Login/index.php'</script>";
 }
 
 

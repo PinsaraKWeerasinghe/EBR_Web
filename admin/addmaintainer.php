@@ -59,8 +59,8 @@ if(isset($_SESSION['uname'])){
                                 <li><a href="https://www.ceb.lk/"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
                             <div class="search">
-                                <a style="background:#5c5c5c" href="">  <?php echo $_SESSION['uname']?>  </a>
-                                <a style="background: #5c5c5c"href="../logout.php"><input type="button" value="Log Out"></button></a>
+                                <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                                <a href="../logout.php"><input type="button" value="Log Out"></button></a>
 
                             </div>
                         </div>
@@ -268,7 +268,7 @@ if(isset($_SESSION['uname'])){
 }else{
 
 
-    echo "<script type=\"text/javascript\">location.href = 'Login/index.html'</script>";
+    echo "<script type=\"text/javascript\">location.href = 'Login/index.php'</script>";
 }
 
 

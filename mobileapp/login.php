@@ -7,6 +7,9 @@ $mysql_user="root";
 $username=$_POST["uname"];
 $pwd=$_POST["pword"];
 
+
+
+
 $dbpwd="";
 
 $con=mysqli_connect($mysql_host,$mysql_user,"",	"Spark");
@@ -28,10 +31,18 @@ mysqli_close($con);
 
 if($pwd==$dbpwd){
 
-    echo "true";
+
+    $arr = array('key' => "true");
+    echo json_encode($arr);
+
+
+//    echo "true";
 
 }else{
-    echo "false";
+//    echo "false";
+
+    $arr = array('key' => "false");
+    echo json_encode($arr);
 }
 
 ?>

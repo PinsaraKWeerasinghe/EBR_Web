@@ -9,12 +9,13 @@ if (!$con){
 }else{
     echo "Connected successfully...<br>";
 }
-
+$uname = $_POST['username'];
+$pword = $_POST['password'];
 $fname = $_POST['firstname'];
 $lname = $_POST['lastname'];
 $currents="free";
 
-$_query="INSERT INTO Maintainer VALUES ('','$fname','$lname','$currents','')";
+$_query="INSERT INTO Maintainer VALUES ('','$uname','$pword','$fname','$lname','$currents','')";
 
 if(mysqli_query($con,$_query)){
     echo "Data insert success fully";

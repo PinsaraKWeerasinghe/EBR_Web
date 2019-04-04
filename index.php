@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['uname'])){
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,3 +127,16 @@
 
 </body>
 </html>
+
+    <?php
+
+
+
+}else{
+
+
+    echo "<script type=\"text/javascript\">location.href = 'maintainer/index.php'</script>";
+}
+
+
+?>

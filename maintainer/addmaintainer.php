@@ -59,8 +59,8 @@ if(isset($_SESSION['uname'])){
                                 <li><a href="https://www.ceb.lk/"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
                             <div class="search">
-                                <a style="background:#5c5c5c" href="">  <?php echo $_SESSION['uname']?>  </a>
-                                <a style="background: #5c5c5c"href="../logout.php"><input type="button" value="Log Out"></button></a>
+                                <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                                <a href="../logout.php"><input type="button" value="Log Out"></button></a>
 
                             </div>
                         </div>
@@ -111,20 +111,20 @@ if(isset($_SESSION['uname'])){
                 <form name="contact-form" method="post" action="addmaintainertodb.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
-                            <label>First Name *</label>
-                            <input type="text" name="firstname" class="form-control" required="required">
+                            <label>User Name</label>
+                            <input type="text" name="username" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Last Name *</label>
-                            <input type="text" name="lastname" class="form-control" required="required">
+                            <label>Password</label>
+                            <input type="password" name="password" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Mobile Number</label>
-                            <input name="mobno" type="number" class="form-control">
+                            <label>First Name</label>
+                            <input name="firstname" type="text" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label>NIC</label>
-                            <input name="age" type="text" class="form-control">
+                            <label>Last Name</label>
+                            <input name="lastname" type="text" class="form-control">
                         </div>                        
                     </div>
                     <div class="col-sm-5">
@@ -268,7 +268,7 @@ if(isset($_SESSION['uname'])){
 }else{
 
 
-    echo "<script type=\"text/javascript\">location.href = 'Login/index.html'</script>";
+    echo "<script type=\"text/javascript\">location.href = 'Login/index.php'</script>";
 }
 
 

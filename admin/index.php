@@ -81,8 +81,8 @@ if(isset($_SESSION['uname'])){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
+                    <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                    <a href="../logout.php"><input type="button" value="Log Out"></button></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -742,7 +742,7 @@ if(isset($_SESSION['uname'])){
 }else{
 
 
-    echo "<script type=\"text/javascript\">location.href = 'Login/index.html'</script>";
+    echo "<script type=\"text/javascript\">location.href = 'Login/index.php'</script>";
 }
 
 
