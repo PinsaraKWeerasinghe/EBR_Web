@@ -3,7 +3,6 @@
 session_start();
 
 if(isset($_SESSION['uname'])){
-
     ?>
 
 
@@ -110,7 +109,7 @@ if(isset($_SESSION['uname'])){
                     
                 </div>
                 <?php
-                    require_once "incident.php"
+                    require_once "imageview.php"
                 ?>
                 
 

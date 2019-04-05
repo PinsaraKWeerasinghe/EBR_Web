@@ -14,10 +14,24 @@ $userid=$_POST["userID"];
 $location=$_POST["location"];
 $methodofReport=$_POST["methodofReport"];
 $comment=$_POST["comment"];
+
+
+$img_name="test.jpg";
+$encode_str=$_POST["encoded_string"];
 $state="Open";
 
+$lat=$_POST["lat"];
+$lng=$_POST["lng"];
 
-$_query="INSERT INTO incident VALUES ('','$userid','$location','$methodofReport','$comment','$state')"; 
+//$decoded_string=base64_decode($encode_str);
+//$path='images/'.$img_name;
+//$file=fopen($path,'wb');
+//$is_written=fwrite($file,$decoded_string);
+//fclose($file);
+
+
+
+$_query="INSERT INTO incident VALUES ('','$userid','$location','$methodofReport','$comment','$state','$lat','$lng','$img_name','$encode_str')";
 
 if(mysqli_query($con,$_query)){
     echo "Data insert success fully";

@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7973c2-5108-439b-94c6-27932cf04d8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobileapp/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addmaintainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addmaintainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addmaintainertodb.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addmaintainertodb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/issues.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/issues.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/maintainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/maintainers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logincheck.php" beforeDir="false" afterPath="$PROJECT_DIR$/logincheck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/addmaintainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/addmaintainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/addmaintainertodb.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/addmaintainertodb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/images/slider/bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/images/slider/bg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/images/slider/bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/images/slider/bg2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maintainer/incident.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/incident.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maintainer/issues.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/issues.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/maintainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/maintainers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/maintainersList.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/maintainersList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobileapp/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileapp/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobileapp/reportsubmit.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileapp/reportsubmit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +17,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maintainer/issues.php">
+        <entry file="file://$PROJECT_DIR$/maintainer/imageview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="62" column="106" selection-start-line="62" selection-start-column="106" selection-end-line="62" selection-end-column="106" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobileapp/reportsubmit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maintainer/issues.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1233">
+              <caret line="165" column="62" selection-start-line="165" selection-start-column="62" selection-end-line="165" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maintainer/incident.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state relative-caret-position="180">
+              <caret line="12" column="334" selection-start-line="12" selection-start-column="334" selection-end-line="12" selection-end-column="334" />
               <folding>
                 <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
@@ -58,19 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maintainer/map.php">
+        <entry file="file://$PROJECT_DIR$/maintainer/incidentImage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/addmaintainer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="62" column="106" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="62" selection-end-column="106" />
+            <state relative-caret-position="-1320">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -115,16 +113,22 @@
         <option value="$PROJECT_DIR$/admin/maintainers.php" />
         <option value="$PROJECT_DIR$/maintainer/index.php" />
         <option value="$PROJECT_DIR$/admin/issues.php" />
-        <option value="$PROJECT_DIR$/maintainer/issues.php" />
         <option value="$PROJECT_DIR$/maintainer/test.php" />
         <option value="$PROJECT_DIR$/maintainer/map.php" />
+        <option value="$PROJECT_DIR$/mobileapp/test.php" />
+        <option value="$PROJECT_DIR$/mobileapp/testreport.php" />
+        <option value="$PROJECT_DIR$/mobileapp/upload.php" />
+        <option value="$PROJECT_DIR$/mobileapp/reportsubmit.php" />
+        <option value="$PROJECT_DIR$/maintainer/issues.php" />
         <option value="$PROJECT_DIR$/maintainer/incident.php" />
+        <option value="$PROJECT_DIR$/maintainer/incidentImage.php" />
+        <option value="$PROJECT_DIR$/maintainer/imageview.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="768" />
-    <option name="y" value="281" />
+    <option name="x" value="201" />
+    <option name="y" value="296" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -146,6 +150,11 @@
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
               <item name="maintainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,18 +194,47 @@
       <workItem from="1554053528915" duration="10900000" />
       <workItem from="1554088279521" duration="21831000" />
       <workItem from="1554189419749" duration="10758000" />
-      <workItem from="1554252333502" duration="20034000" />
+      <workItem from="1554252333502" duration="30899000" />
+      <workItem from="1554395006517" duration="13000" />
+      <workItem from="1554432158890" duration="9082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69823000" />
+    <option name="totallyTimeSpent" value="89783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="349" width="1400" height="1000" extended-state="0" />
+    <frame x="201" y="296" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26440176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732644" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3295063" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -221,7 +259,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -246,16 +284,7 @@
     <entry file="file://$PROJECT_DIR$/Login/index.html" />
     <entry file="file://$PROJECT_DIR$/Login/logincheck.php" />
     <entry file="file://$PROJECT_DIR$/Login/logout.php" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="71" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileapp/reportsubmit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -379,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/addmaintainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="62" column="106" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="62" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/issues.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -393,31 +415,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maintainer/test.php">
+    <entry file="file://$PROJECT_DIR$/maintainer/test.php" />
+    <entry file="file://$PROJECT_DIR$/admin/addmaintainer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maintainer/issues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="62" column="106" selection-start-line="62" selection-start-column="106" selection-end-line="62" selection-end-column="106" />
+        <state relative-caret-position="168">
+          <caret line="62" column="106" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="62" selection-end-column="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maintainer/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="397">
+          <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="834" column="9" selection-start-line="834" selection-start-column="9" selection-end-line="834" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileapp/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileapp/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="73" column="43" lean-forward="true" selection-start-line="68" selection-end-line="73" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileapp/testreport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#32#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/issues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="165" column="62" selection-start-line="165" selection-start-column="62" selection-end-line="165" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maintainer/incident.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        <state relative-caret-position="180">
+          <caret line="12" column="334" selection-start-line="12" selection-start-column="334" selection-end-line="12" selection-end-column="334" />
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
@@ -426,6 +480,31 @@
             <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#5;n#tr#0;n#table#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/incidentImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1320">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/imageview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileapp/reportsubmit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
