@@ -22,7 +22,7 @@ $streetname=$_POST["street"];
 $city=$_POST["city"];
 $zipno=$_POST["zip"];
 
-$_query="INSERT INTO User VALUES ('','$username',PASSWORD($password),'$accno','$firstname','$lastname','$email','$mobileno','$no','$streetname','$city','$zipno')";
+$_query="INSERT INTO User VALUES ('','$username',md5($password),'$accno','$firstname','$lastname','$email','$mobileno','$no','$streetname','$city','$zipno')";
 
 if(mysqli_query($con,$_query)){
     echo "Data insert success fully";

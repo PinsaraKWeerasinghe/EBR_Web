@@ -20,16 +20,16 @@ if (!$con){
     //echo "Connected successfully...<br>";
 }
 
-$_query="SELECT user_name,pass_word FROM User WHERE pass_word=PASSWORD($pwd)";
+$_query="SELECT user_name,pass_word FROM User WHERE user_name='$username'";
 
 $is_query_run=mysqli_query($con,$_query);
 
 while($query_execute=mysqli_fetch_assoc($is_query_run)){
-    $dbpwd=$query_execute["user_name"];
+    $dbpwd=$query_execute["pass_word"];
 }
 mysqli_close($con);
 
-if($username==$dbpwd){
+if(md5($pwd)==$dbpwd){
 
     $arr = array('key' => "true");
     echo json_encode($arr);
