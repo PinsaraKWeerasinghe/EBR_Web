@@ -1,3 +1,17 @@
+
+
+<?php
+$lat=$_GET["lat"];
+$long=$_GET["long"];
+
+
+?>
+
+
+
+
+
+
 <?php
 
 session_start();
@@ -9,39 +23,39 @@ if(isset($_SESSION['uname'])){
 
 
     <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Home | Corlate</title>
 
-    <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/icomoon.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <!-- core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/icomoon.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
 
-</head>
-<!--/head-->
+    </head>
+    <!--/head-->
 
-<body class="homepage">
+    <body class="homepage">
 
     <header id="header">
         <div class="top-bar">
@@ -81,8 +95,8 @@ if(isset($_SESSION['uname'])){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -90,7 +104,7 @@ if(isset($_SESSION['uname'])){
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="issues.php">Issues</a></li>
                         <li><a href="maintainers.php">Maintainers</a></li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -103,19 +117,53 @@ if(isset($_SESSION['uname'])){
 
 
     <div class="page-title" style="background-image: url(images/page-title.png)">
-        <h1>Current Issues</h1>
+        <h1>Incident Location</h1>
     </div>
     <section  id="feature">
         <div class="container">
             <div class="center fadeInDown">
 
                 <div class="table-bordered">
-                    
+
                 </div>
-                <?php
-                    require_once "incident.php"
-                ?>
-                
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        /* Set the size of the div element that contains the map */
+                        #map {
+                            height: 800px;  /* The height is 400 pixels */
+                            width: 100%;  /* The width is the width of the web page */
+                        }
+                    </style>
+                </head>
+                <body>
+                <!--The div element for the map -->
+                <div id="map"></div>
+                <script>
+                    // Initialize and add the map
+                    function initMap() {
+                        // The location of Uluru
+                        var uluru = {lat: <?php echo "$lat"?>, lng: <?php echo "$long"?>};
+                        // The map, centered at Uluru
+                        var map = new google.maps.Map(
+                            document.getElementById('map'), {zoom: 4, center: uluru});
+                        // The marker, positioned at Uluru
+                        var marker = new google.maps.Marker({position: uluru, map: map});
+                    }
+                </script>
+                <!--Load the API from the specified URL
+                * The async attribute allows the browser to render the page while the API loads
+                * The key parameter will contain your own API key (which is not needed for this tutorial)
+                * The callback parameter executes the initMap() function
+                -->
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkrMe3uOOyCXYjCli8P-pxoOLPVI0Fre0&callback=initMap">
+                </script>
+                </body>
+                </html>
+
+
 
             </div>
             <!--/.row-->
@@ -124,7 +172,7 @@ if(isset($_SESSION['uname'])){
     </section>
     <!--/#feature-->
 
-    
+
 
 
 
@@ -152,9 +200,9 @@ if(isset($_SESSION['uname'])){
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+    </body>
 
-</html>
+    </html>
 
 
     <?php

@@ -51,7 +51,7 @@ if(isset($_SESSION['uname'])){
 
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="social">
+                        <div class="social" style="padding-right: 30px">
                             <ul class="social-share">
                                 <li><a href="https://www.facebook.com/CeylonElectricityBoard/"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/www_ceb_lk?lang=en"><i class="fa fa-twitter"></i></a></li>
@@ -59,8 +59,8 @@ if(isset($_SESSION['uname'])){
                                 <li><a href="https://www.ceb.lk/"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
                             <div class="search">
-                                <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
-                                <a href="../logout.php"><input type="button" value="Log Out"></button></a>
+                                <a href="index.php"><input  style="background: #ffce00"  type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                                <a href="../logout.php"><input style="background: #ffce00" type="button" value="Log Out"></button></a>
 
                             </div>
 
@@ -81,8 +81,8 @@ if(isset($_SESSION['uname'])){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -102,12 +102,31 @@ if(isset($_SESSION['uname'])){
     <!--/header-->
 
 
+    <div class="page-title" style="background-image: url(images/page-title.png)">
+        <h1>Current Issues</h1>
+    </div>
+
+
+
     <section  id="feature">
+
         <div class="container">
+            <div style="float: right">
+                <form action="issues.php" method="get">
+                    <select name="state" style="width: 300px;background: #fffc8d">
+                        <option value="all">All</option>
+                        <option value="open">Open</option>
+                        <option value="inpro">In Progress</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                    <input style="background: #fffc8d" type="submit" value="Click to Filter">
+                </form>
+                <h4></h4>
+            </div>
+
             <div class="center fadeInDown">
-                <h2 class="btn-slide animation animated-item-1" >Current Issues</h2><br>
                 <div class="table-bordered">
-                    
+
                 </div>
                 <?php
                     require_once "incident.php"
@@ -129,14 +148,12 @@ if(isset($_SESSION['uname'])){
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; Spark. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

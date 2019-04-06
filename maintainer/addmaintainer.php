@@ -51,7 +51,7 @@ if(isset($_SESSION['uname'])){
 
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="social">
+                        <div class="social" style="padding-right: 30px">
                             <ul class="social-share">
                                 <li><a href="https://www.facebook.com/CeylonElectricityBoard/"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/www_ceb_lk?lang=en"><i class="fa fa-twitter"></i></a></li>
@@ -59,10 +59,11 @@ if(isset($_SESSION['uname'])){
                                 <li><a href="https://www.ceb.lk/"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
                             <div class="search">
-                                <a href="index.php"><input type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
-                                <a href="../logout.php"><input type="button" value="Log Out"></button></a>
+                                <a href="index.php"><input  style="background: #ffce00"  type="button" value="Hi! <?php echo $_SESSION['uname']?>">   </a>
+                                <a href="../logout.php"><input style="background: #ffce00" type="button" value="Log Out"></button></a>
 
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -236,14 +237,12 @@ if(isset($_SESSION['uname'])){
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; Spark. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

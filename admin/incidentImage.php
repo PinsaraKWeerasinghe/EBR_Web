@@ -3,12 +3,11 @@
 session_start();
 
 if(isset($_SESSION['uname'])){
-
-?>
-
+    ?>
 
 
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -81,15 +80,16 @@ if(isset($_SESSION['uname'])){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="issues.php">Issues</a></li>
-                        <li class="active"><a href="maintainers.php">Maintainers</a></li>
+                        <li class="active"><a href="issues.php">Issues</a></li>
+                        <li><a href="maintainers.php">Maintainers</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -102,21 +102,19 @@ if(isset($_SESSION['uname'])){
 
 
     <div class="page-title" style="background-image: url(images/page-title.png)">
-        <h1>Maintainers</h1>
+        <h1>Incident Image</h1>
     </div>
+
     <section  id="feature">
         <div class="container">
             <div class="center fadeInDown">
-
                 <div class="table-bordered">
                     
                 </div>
                 <?php
-                    require_once "maintainersList.php"
+                    require_once "imageview.php"
                 ?>
                 
-
-
 
             </div>
             <!--/.row-->
@@ -158,7 +156,6 @@ if(isset($_SESSION['uname'])){
 </html>
 
 
-
     <?php
 
 
@@ -166,7 +163,7 @@ if(isset($_SESSION['uname'])){
 }else{
 
 
-    echo "<script type=\"text/javascript\">location.href = 'Login/index.php'</script>";
+    echo "<script type=\"text/javascript\">location.href = '../index.php'</script>";
 }
 
 
