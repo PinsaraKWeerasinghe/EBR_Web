@@ -10,7 +10,7 @@ if (!$con){
     echo "Connected successfully...<br>";
 }
 
-$userid=$_POST["userID"];
+$username=$_POST["username"];
 $location=$_POST["location"];
 $methodofReport=$_POST["methodofReport"];
 $comment=$_POST["comment"];
@@ -29,9 +29,11 @@ $lng=$_POST["lng"];
 //$is_written=fwrite($file,$decoded_string);
 //fclose($file);
 
+date_default_timezone_set("Asia/Calcutta");
+$dates= date("Y:M:d");
 
 
-$_query="INSERT INTO incident VALUES ('','$userid','$location','$methodofReport','$comment','$state','$lat','$lng','$img_name','$encode_str')";
+$_query="INSERT INTO incident VALUES ('','$username','$location','$methodofReport','$comment','$state','$lat','$lng','$img_name','$encode_str','$dates')";
 
 if(mysqli_query($con,$_query)){
     echo "Data insert success fully";

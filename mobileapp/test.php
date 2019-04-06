@@ -1,3 +1,4 @@
 <?php
-echo PASSWORD("12345")
+date_default_timezone_set("Asia/Calcutta");
+echo date("Y:M:d");
 ?>

@@ -4,9 +4,7 @@ $mysql_host="localhost";
 $mysql_user="root";
 
 
-//$username=$_POST["uname"];
-$username="1";
-
+$username=$_POST["uname"];
 
 
 $con=mysqli_connect($mysql_host,$mysql_user,"",	"Spark");
@@ -17,7 +15,7 @@ if (!$con){
     //echo "Connected successfully...<br>";
 }
 
-$_query="SELECT incident_id,location,insident_type,state FROM incident WHERE user_id='$username'";
+$_query="SELECT incident_id,dates,insident_type,state FROM incident WHERE user_name='$username'";
 
 $is_query_run=mysqli_query($con,$_query);
 $json_array=array();
