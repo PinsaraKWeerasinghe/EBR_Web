@@ -119,13 +119,14 @@ if(isset($_SESSION['uname'])){
 
 
                 while($query_execute=mysqli_fetch_assoc($is_query_run)){
-                    $user=$query_execute["user_id"];
+                    $username=$query_execute["user_name"];
                     $type=$query_execute["insident_type"];
                     $comment=$query_execute["comment"];
                     $state=$query_execute["state"];
                     $lat=$query_execute["lat"];
                     $lng=$query_execute["lng"];
                     $image=$query_execute["imagepath"];
+                    $date=$query_execute["dates"];
                 }
 
                 mysqli_close($con);
@@ -136,7 +137,7 @@ if(isset($_SESSION['uname'])){
                 $con=mysqli_connect($mysql_host,$mysql_user,"",	"Spark");
 
 
-                $_query="SELECT * FROM User WHERE user_id=$user";
+                $_query="SELECT * FROM User WHERE user_name='$username'";
                 $is_query_run=mysqli_query($con,$_query);
 
 
@@ -182,6 +183,10 @@ if(isset($_SESSION['uname'])){
                                     <div class="form-group">
                                         <label>Repoter Electricity Account Number</label>
                                     </div>
+
+                                    <div class="form-group">
+                                        <label>Reported Date</label>
+                                    </div>
                                     <div class="form-group">
                                         <label>Report Type</label>
                                     </div>
@@ -214,6 +219,11 @@ if(isset($_SESSION['uname'])){
 
                                     <div class="form-group">
                                         <label><?php echo":"," ","$accno"?></label>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label><?php echo":"," ","$date"?></label>
 
                                     </div>
                                     <div class="form-group">

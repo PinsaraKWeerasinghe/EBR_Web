@@ -82,8 +82,8 @@ if(isset($_SESSION['uname'])){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
-                    <a class="navbar-brand" href="index.html"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img style="height: 70px" src="images/Spark-Logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -114,12 +114,12 @@ if(isset($_SESSION['uname'])){
                 $con=mysqli_connect($mysql_host,$mysql_user,"",	"Spark");
 
 
-                $_query="SELECT * FROM incident WHERE incident_id=$incidentid";
-                $is_query_run=mysqli_query($con,$_query);
+                $_query1="SELECT * FROM incident WHERE incident_id=$incidentid";
+                $is_query_run1=mysqli_query($con,$_query1);
 
 
-                while($query_execute=mysqli_fetch_assoc($is_query_run)){
-                    $user=$query_execute["user_id"];
+                while($query_execute=mysqli_fetch_assoc($is_query_run1)){
+                    $username=$query_execute["user_name"];
                     $type=$query_execute["insident_type"];
                     $comment=$query_execute["comment"];
                     $state=$query_execute["state"];
@@ -136,11 +136,12 @@ if(isset($_SESSION['uname'])){
                 $con=mysqli_connect($mysql_host,$mysql_user,"",	"Spark");
 
 
-                $_query="SELECT * FROM User WHERE user_id=$user";
+                $_query="SELECT * FROM User WHERE user_name='$username'";
                 $is_query_run=mysqli_query($con,$_query);
 
 
                 while($query_execute=mysqli_fetch_assoc($is_query_run)){
+
                     $fname=$query_execute["first_name"];
                     $lname=$query_execute["last_name"];
                     $accno=$query_execute["account_no"];

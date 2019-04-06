@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7973c2-5108-439b-94c6-27932cf04d8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mobileapp/History.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileapp/History.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobileapp/reportsubmit.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileapp/reportsubmit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobileapp/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileapp/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/images/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/ico/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/admin/images/ico/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/selectissue.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/selectissue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maintainer/selectissue.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/selectissue.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +19,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileapp/reportsubmit.php">
+        <entry file="file://$PROJECT_DIR$/admin/selectissue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileapp/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobileapp/History.php">
+        <entry file="file://$PROJECT_DIR$/maintainer/selectissue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="1213">
+              <caret line="187" column="60" selection-start-line="187" selection-start-column="60" selection-end-line="187" selection-end-column="60" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +78,6 @@
         <option value="$PROJECT_DIR$/maintainer/index.php" />
         <option value="$PROJECT_DIR$/maintainer/addmaintainer.php" />
         <option value="$PROJECT_DIR$/maintainer/portfolio.html" />
-        <option value="$PROJECT_DIR$/maintainer/selectissue.php" />
-        <option value="$PROJECT_DIR$/admin/selectissue.php" />
         <option value="$PROJECT_DIR$/maintainer/incident.php" />
         <option value="$PROJECT_DIR$/maintainer/maintainersList.php" />
         <option value="$PROJECT_DIR$/maintainer/incidentImage.php" />
@@ -99,12 +98,14 @@
         <option value="$PROJECT_DIR$/mobileapp/History.php" />
         <option value="$PROJECT_DIR$/mobileapp/test.php" />
         <option value="$PROJECT_DIR$/mobileapp/reportsubmit.php" />
+        <option value="$PROJECT_DIR$/admin/selectissue.php" />
+        <option value="$PROJECT_DIR$/maintainer/selectissue.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="386" />
-    <option name="y" value="229" />
+    <option name="x" value="198" />
+    <option name="y" value="272" />
     <option name="width" value="1400" />
     <option name="height" value="808" />
   </component>
@@ -120,6 +121,11 @@
             <path>
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="maintainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
@@ -168,16 +174,15 @@
       <workItem from="1554252333502" duration="30899000" />
       <workItem from="1554395006517" duration="13000" />
       <workItem from="1554432158890" duration="9682000" />
-      <workItem from="1554510177732" duration="35800000" />
+      <workItem from="1554510177732" duration="39043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126183000" />
+    <option name="totallyTimeSpent" value="129426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="386" y="229" width="1400" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="198" y="272" width="1400" height="808" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27769572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -301,17 +306,6 @@
           <caret line="22" column="19" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="e#6#32#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maintainer/selectissue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="e#10766#10772#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/selectissue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/addmaintainer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -551,6 +535,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/selectissue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/selectissue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1213">
+          <caret line="187" column="60" selection-start-line="187" selection-start-column="60" selection-end-line="187" selection-end-column="60" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
