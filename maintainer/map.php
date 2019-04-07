@@ -147,7 +147,7 @@ if(isset($_SESSION['uname'])){
                         var uluru = {lat: <?php echo "$lat"?>, lng: <?php echo "$long"?>};
                         // The map, centered at Uluru
                         var map = new google.maps.Map(
-                            document.getElementById('map'), {zoom: 4, center: uluru});
+                            document.getElementById('map'), {zoom: 10, center: uluru});
                         // The marker, positioned at Uluru
                         var marker = new google.maps.Marker({position: uluru, map: map});
                     }
@@ -158,7 +158,7 @@ if(isset($_SESSION['uname'])){
                 * The callback parameter executes the initMap() function
                 -->
                 <script async defer
-                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkrMe3uOOyCXYjCli8P-pxoOLPVI0Fre0&callback=initMap">
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiaTWtLoN1rAG-2A97iTw9H7jiN9dfYbE&callback=initMap">
                 </script>
                 </body>
                 </html>

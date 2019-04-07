@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7973c2-5108-439b-94c6-27932cf04d8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/about-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addmaintainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addmaintainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addmaintainertodb.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addmaintainertodb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/blog-item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/incidentImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/incidentImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/issues.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/issues.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/maintainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/maintainers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/selectissue.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/selectissue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/about-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/blog-item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/incident.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/incident.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/incidentImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/incidentImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/issues.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/issues.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/maintainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/maintainers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maintainer/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/selectissue.php" beforeDir="false" afterPath="$PROJECT_DIR$/maintainer/selectissue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintainer/services.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maintainer/map.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="149" column="69" selection-start-line="149" selection-start-column="69" selection-end-line="149" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,15 +76,15 @@
         <option value="$PROJECT_DIR$/maintainer/index.php" />
         <option value="$PROJECT_DIR$/maintainer/issues.php" />
         <option value="$PROJECT_DIR$/maintainer/selectissue.php" />
-        <option value="$PROJECT_DIR$/maintainer/map.php" />
         <option value="$PROJECT_DIR$/maintainer/incidentImage.php" />
         <option value="$PROJECT_DIR$/maintainer/maintainers.php" />
+        <option value="$PROJECT_DIR$/maintainer/map.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="337" />
+    <option name="x" value="448" />
+    <option name="y" value="191" />
     <option name="width" value="1400" />
     <option name="height" value="808" />
   </component>
@@ -115,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -173,16 +152,17 @@
       <workItem from="1554510177732" duration="39043000" />
       <workItem from="1554570090683" duration="4429000" />
       <workItem from="1554599383181" duration="4024000" />
+      <workItem from="1554604436280" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137879000" />
+    <option name="totallyTimeSpent" value="138483000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="337" width="1400" height="808" extended-state="0" />
+    <frame x="448" y="191" width="1400" height="808" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28655836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29098967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -294,16 +274,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maintainer/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="311" column="13" selection-start-line="311" selection-start-column="13" selection-end-line="311" selection-end-column="13" />
-          <folding>
-            <element signature="e#14757#14763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/portfolio.html" />
     <entry file="file://$PROJECT_DIR$/maintainer/addmaintainertodb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -499,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maintainer/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maintainer/selectissue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -548,6 +512,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maintainer/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="149" column="69" selection-start-line="149" selection-start-column="69" selection-end-line="149" selection-end-column="69" />
         </state>
       </provider>
     </entry>
