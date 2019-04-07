@@ -16,7 +16,7 @@ if(isset($_SESSION['uname'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Issue | Spark</title>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -107,6 +107,18 @@ if(isset($_SESSION['uname'])){
     </div>
     <section  id="feature">
         <div class="container">
+            <div style="float: right">
+                <form action="issues.php" method="get">
+                    <select name="state" style="width: 300px;background: #fffc8d">
+                        <option value="all">All</option>
+                        <option value="open">Open</option>
+                        <option value="inpro">In Progress</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                    <input style="background: #fffc8d" type="submit" value="Click to Filter">
+                </form>
+                <h4></h4>
+            </div>
             <div class="center fadeInDown">
 
                 <div class="table-bordered">

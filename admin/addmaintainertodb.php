@@ -14,8 +14,9 @@ $pword = $_POST['password'];
 $fname = $_POST['firstname'];
 $lname = $_POST['lastname'];
 $currents="free";
+$pwordmd5=md5($pword);
 
-$_query="INSERT INTO Maintainer VALUES ('','$uname','$pword','$fname','$lname','$currents','')";
+$_query="INSERT INTO Maintainer VALUES ('','$uname','$pwordmd5','$fname','$lname','$currents','')";
 
 if(mysqli_query($con,$_query)){
     echo "Data insert success fully";

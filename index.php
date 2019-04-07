@@ -9,7 +9,7 @@ if(!isset($_SESSION['uname'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V18</title>
+	<title>Login | Spark</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -68,9 +68,7 @@ if(!isset($_SESSION['uname'])){
 						</div>
 
 						<div>
-							<a href="#" class="txt1">
-								Forgot Password?
-							</a>
+
 						</div>
 					</div>
 			
@@ -83,16 +81,16 @@ if(!isset($_SESSION['uname'])){
 					
 					<div class="text-center p-t-46 p-b-20">
 						<span class="txt2">
-							or sign up using
+							Our Socials
 						</span>
 					</div>
 
 					<div class="login100-form-social flex-c-m">
-						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+						<a href="https://www.facebook.com/CeylonElectricityBoard/" class="login100-form-social-item flex-c-m bg1 m-r-5">
 							<i class="fa fa-facebook-f" aria-hidden="true"></i>
 						</a>
 
-						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+						<a href="https://twitter.com/www_ceb_lk?lang=en" class="login100-form-social-item flex-c-m bg2 m-r-5">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 						</a>
 					</div>

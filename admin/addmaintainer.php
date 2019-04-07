@@ -16,7 +16,7 @@ if(isset($_SESSION['uname'])){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Home | Corlate</title>
+        <title>Add Maintainer | Spark</title>
 
         <!-- core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -112,6 +112,10 @@ if(isset($_SESSION['uname'])){
                 <form name="contact-form" method="post" action="addmaintainertodb.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
+                            <label>Username *</label>
+                            <input type="text" name="username" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
                             <label>First Name *</label>
                             <input type="text" name="firstname" class="form-control" required="required">
                         </div>
@@ -130,6 +134,10 @@ if(isset($_SESSION['uname'])){
                     </div>
                     <div class="col-sm-5">
                         <div class="form-group">
+                            <div class="form-group">
+                                <label>Password *</label>
+                                <input type="password" name="password" class="form-control" required="required">
+                            </div>
                             <label>Gender</label>
 
                             <select name="gender" class="form-control" required="required">
